@@ -14,7 +14,7 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
@@ -87,7 +87,7 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
