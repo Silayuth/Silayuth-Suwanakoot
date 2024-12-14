@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { VscAdd } from "react-icons/vsc";
 
 function AboutCard() {
   return (
@@ -30,19 +31,22 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+            <VscAdd /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Movies
+            <VscAdd /> Movies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travel
+            <VscAdd /> Travel
             </li>
             <li className="about-activity">
-              <ImPointRight /> Animes
+            <VscAdd /> Animes
             </li>
             <li className="about-activity">
-              <ImPointRight /> Cooking
+            <VscAdd /> Cooking
+            </li>
+            <li className="about-activity">
+            <VscAdd /> Musics
             </li>
           </ul>
 
