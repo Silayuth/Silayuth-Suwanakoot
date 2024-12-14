@@ -7,13 +7,16 @@ import {
   SiVercel,
   SiMacos,
 } from "react-icons/si";
+import { SiGodotengine } from "react-icons/si";
+import { BsUnity } from "react-icons/bs";
+import { DiGithubBadge } from "react-icons/di";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGodotengine />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
@@ -25,6 +28,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BsUnity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <DiGithubBadge />
       </Col>
     </Row>
   );
